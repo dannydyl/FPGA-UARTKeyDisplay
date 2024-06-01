@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="UARTKeyDisplay_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="UARTKeyDisplay_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="2,558.000001 us"></ZoomEndTime>
+      <Cursor1Time time="111.495000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="116"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/UARTKeyDisplay_tb/clk_tb" type="logic">
+      <obj_property name="ElementShortName">clk_tb</obj_property>
+      <obj_property name="ObjectShortName">clk_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/UART_serial_in_tb" type="logic">
+      <obj_property name="ElementShortName">UART_serial_in_tb</obj_property>
+      <obj_property name="ObjectShortName">UART_serial_in_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/LED_busy_tb" type="logic">
+      <obj_property name="ElementShortName">LED_busy_tb</obj_property>
+      <obj_property name="ObjectShortName">LED_busy_tb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/an_tb" type="array">
+      <obj_property name="ElementShortName">an_tb[3:0]</obj_property>
+      <obj_property name="ObjectShortName">an_tb[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/seg_display_tb" type="array">
+      <obj_property name="ElementShortName">seg_display_tb[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_display_tb[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/clk_period" type="other">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/DUT/seg_data_0" type="array">
+      <obj_property name="ElementShortName">seg_data_0[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_data_0[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/DUT/seg_data_1" type="array">
+      <obj_property name="ElementShortName">seg_data_1[6:0]</obj_property>
+      <obj_property name="ObjectShortName">seg_data_1[6:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/DUT/anode_select" type="logic">
+      <obj_property name="ElementShortName">anode_select</obj_property>
+      <obj_property name="ObjectShortName">anode_select</obj_property>
+   </wvobject>
+   <wvobject fp_name="/UARTKeyDisplay_tb/DUT/uart_to_7seg_data" type="array">
+      <obj_property name="ElementShortName">uart_to_7seg_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">uart_to_7seg_data[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
