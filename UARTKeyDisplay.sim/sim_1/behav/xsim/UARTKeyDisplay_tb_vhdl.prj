@@ -1,0 +1,13 @@
+# compile vhdl design source files
+vhdl2008 xil_defaultlib  \
+"../../../../UARTKeyDisplay.srcs/sources_1/new/UART_RX.vhd" \
+
+vhdl xil_defaultlib  \
+"../../../../UARTKeyDisplay.srcs/sources_1/new/seven_seg_display.vhd" \
+"../../../../UARTKeyDisplay.srcs/sources_1/new/UARTKeyDisplay_top_entity.vhd" \
+
+vhdl2008 xil_defaultlib  \
+"../../../../UARTKeyDisplay.srcs/sim_1/new/UARTKeyDisplay_top_entity_tb.vhd" \
+
+# Do not sort compile order
+nosort
