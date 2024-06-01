@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project implements a UART-based 7-segment display controller using the Basys3 FPGA development board. The project was designed and implemented using Vivado Xilinx tools and Putty for UART communication. The system operates at a baud rate of 9600 and displays received data on a 7-segment display.
+This project implements a UART-based 7-segment display controller using the Basys3 FPGA development board. The project was designed and implemented using Vivado Xilinx tools and Putty for UART communication. The system operates at a baud rate of 9600 and displays received ASCII codes from the keyboard on a 7-segment display in hexadecimal format.
 
 ## Features
 
@@ -28,7 +28,7 @@ A clock divider module reduces the 100 MHz system clock to a 100 Hz clock signal
 
 ### Top-Level Entity
 
-The top-level entity integrates the UART receiver and the 7-segment display controller. It manages the multiplexing of the 7-segment display using the divided clock signal and routes the decoded UART data to the appropriate display segments.
+The top-level entity integrates the UART receiver and the 7-segment display controller. It manages the multiplexing of the 7-segment display using the divided clock signal and routes the decoded UART data to the appropriate display segments. The FPGA receives ASCII codes from the keyboard via UART and displays these codes in hexadecimal format on the 7-segment display.
 
 ## Implementation Details
 
@@ -48,6 +48,7 @@ The top-level entity integrates the UART receiver and the 7-segment display cont
 4. **Top-Level Integration**:
     - Combines UART receiver and display controller.
     - Manages display multiplexing with a 100 Hz clock signal.
+    - Displays ASCII codes received from the keyboard in hexadecimal format on the 7-segment display.
 
 ## Testing
 
@@ -55,18 +56,12 @@ Comprehensive testbenches were developed for each module to verify their functio
 
 ## Demonstration Video
 
-A demonstration video of the project in action has been uploaded to YouTube. You can view the video here: [YouTube Link]
+A demonstration video of the project in action has been uploaded to YouTube. You can view the video here: [https://youtu.be/WaozhYVn_Zg?si=F1MF-Ug1CNx5bzmo]
 
 ## Tools Used
 
 - **Vivado Xilinx Tools**: For design and implementation.
 - **Putty**: For UART communication and testing.
 - **Basys3 FPGA Development Board**: The target hardware platform for the project.
-
-## Contact
-
-For any questions or further information, please contact [Your Name] at [Your Email].
-
----
 
 This project was a great opportunity to explore FPGA design, UART communication, and display control. Thank you for checking out my work!
