@@ -4,6 +4,10 @@
 
 This project implements a UART-based 7-segment display controller using the Basys3 FPGA development board. The project was designed and implemented using Vivado Xilinx tools and Putty for UART communication. The system operates at a baud rate of 9600 and displays received ASCII codes from the keyboard on a 7-segment display in hexadecimal format.
 
+## Demonstration Video
+
+A demonstration video of the project in action has been uploaded to YouTube. You can view the video here: [https://youtu.be/WaozhYVn_Zg?si=F1MF-Ug1CNx5bzmo]
+
 ## Features
 
 - **UART Receiver**: Captures serial data at a baud rate of 9600.
@@ -53,10 +57,6 @@ The top-level entity integrates the UART receiver and the 7-segment display cont
 ## Testing
 
 Comprehensive testbenches were developed for each module to verify their functionality. The testbenches simulate the behavior of each module and ensure correct operation under various conditions.
-
-## Demonstration Video
-
-A demonstration video of the project in action has been uploaded to YouTube. You can view the video here: [https://youtu.be/WaozhYVn_Zg?si=F1MF-Ug1CNx5bzmo]
 
 ## Tools Used
 
